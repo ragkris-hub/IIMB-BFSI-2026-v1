@@ -1,13 +1,15 @@
-# BFSI NEXT 2026 website prototype
+# BFSI Next 2026 website
 
-Open `index.html` in a browser.
+Open `index.html` in a browser. The website is plain HTML, CSS and JavaScript and works offline.
 
-The bottom-right/floating template selector lets you switch between:
-1. Intelligent Future
-2. IIMB Editorial
-3. The Experience
-4. The Conversation
+Pages: `index.html`, `about-sig.html`, `bfsinext-2026.html`, `agenda.html`, `speakers.html`, `partners.html`, `past-editions.html`, and `join-sig.html`.
 
-The prototype uses selected image assets extracted from the uploaded 2025 BFSI speaker deck and content supported by that deck. Replace the sample 2025 speaker images/cards and the archive placeholder with final approved event photography, logos, links and 2026 speaker/agenda data.
+## Editing guide
 
-No external libraries are required; the prototype is plain HTML/CSS/JS and works offline.
+- Shared layout and blue/white design system: `styles.css`
+- Navigation, mobile menu, speaker filters and form behaviour: `app.js`
+- Original generated event images: `assets/images/`
+- Speaker images: `assets/images/speakers/`
+- Partner logos: add approved logos to `assets/images/logos/`
+
+Before publishing, replace all “To be announced” speaker placeholders, programme placeholders, partner placeholders and the demonstration form behaviour with approved content and a connected registration service.

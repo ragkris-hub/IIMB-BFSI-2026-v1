@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BFSINext Portal Wireframe</title>
+<style>
+:root{--red:#a51c30;--dark:#202124;--cream:#faf8f5;--gold:#c59a45;--grey:#667085}
+*{box-sizing:border-box}body{margin:0;background:#eee;color:var(--dark);font:14px Arial,sans-serif}
+.page{width:297mm;min-height:210mm;margin:12px auto;padding:16mm;background:var(--cream);page-break-after:always}
+h1,h2,h3{font-family:Georgia,serif;margin-top:0}h1{font-size:38px}h2{color:var(--red);border-bottom:2px solid var(--gold);padding-bottom:8px}
+.cover{display:grid;place-content:center;text-align:center;border-top:12px solid var(--red)}
+.cover p{color:var(--grey);font-size:18px}.logo{font:bold 24px Georgia;color:var(--red)}
+header,.row,.nav,.cards,.metrics{display:flex;gap:16px;align-items:center}
+header{justify-content:space-between;border-bottom:1px solid #bbb;padding:12px 0}.nav{margin-left:auto}
+button,.btn{background:var(--red);color:white;border:0;padding:12px 18px;border-radius:5px}
+section{padding:24px 0;border-bottom:1px dashed #aaa}.hero{min-height:250px}.col{flex:1}
+.placeholder{display:grid;place-items:center;min-height:150px;background:#eee;border:2px dashed #999;color:#777}
+.metrics>div,.card{flex:1;background:white;border:1px solid #ccc;padding:18px;border-radius:7px}
+.metrics{text-align:center}.metrics b{display:block;font-size:25px;color:var(--red)}
+.cards{align-items:stretch}.card h3{color:var(--red)}.cta{background:var(--dark);color:white;padding:24px}
+.mobile{width:390px;margin:auto;border:8px solid #222;border-radius:24px;padding:16px;background:white}
+.mobile .row,.mobile .cards,.mobile .metrics{display:grid;grid-template-columns:1fr}
+.mobile .metrics{grid-template-columns:1fr 1fr}.mobile section{padding:18px 0}
+.swatches span{display:inline-block;width:120px;padding:20px;color:white}
+footer{padding-top:20px;color:var(--grey)}
+@media print{body{background:white}.page{margin:0;box-shadow:none}}
+@media(max-width:800px){.page{width:100%;min-height:auto}.row,.cards{display:block}.card{margin:10px 0}}
+</style>
+</head>
+<body>
+
+<div class="page cover">
+<div>
+<div class="logo">IIMB Alumni Association</div>
+<h1>BFSINext Portal Redesign</h1>
+<p>Complete responsive wireframe · IIMB-inspired theme</p>
+<p>Desktop and mobile experience · Version 1.0</p>
+</div>
+</div>
+
+<div class="page">
+<h2>Desktop Homepage</h2>
+<header>
+<div class="logo">IIMBAA | BFSINext</div>
+<nav class="nav">About　Events　Insights　Community <button>Join</button></nav>
+</header>
+
+<section class="hero row">
+<div class="col">
+<small>BFSINEXT 2026</small>
+<h1>Where BFSI leaders connect, learn and shape what’s next</h1>
+<p>An IIMB alumni-led community for meaningful industry conversations.</p>
+<button>Explore 2026</button>　<span class="btn">Join Community</span>
+<p>Date · Venue · Bengaluru</p>
+</div>
+<div class="col placeholder">Hero event photograph</div>
+</section>
+
+<section class="metrics">
+<div><b>—</b>Members</div><div><b>—</b>Leaders</div>
+<div><b>—</b>Sessions</div><div><b>—</b>Institutions</
