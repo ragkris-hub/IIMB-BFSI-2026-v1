@@ -1,1 +1,149 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Join BFSI SIG | BFSI Next</title><link rel="stylesheet" href="styles.css"></head><body><header class="site-header"><a class="logo" href="index.html">BFSI <b>NEXT</b><small>IIMBAA · BFSI SIG</small></a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="about-sig.html">About SIG</a><a href="bfsinext-2026.html">BFSI Next 2026</a><a href="agenda.html">Agenda</a><a href="speakers.html">Speakers</a><a href="partners.html">Partners</a><a href="past-editions.html">Past Editions</a><a aria-current="page" href="join-sig.html">Join SIG</a></nav><a class="button" href="#register">Register interest</a></header><main><section class="page-hero"><div class="wrap"><p class="eyebrow">JOIN THE COMMUNITY</p><h1>Stay close to what’s <em>next.</em></h1><p>Join the BFSI SIG community or register your interest for BFSI Next 2026.</p></div></section><section class="section"><div class="wrap split"><div><p class="eyebrow">MEMBERSHIP</p><h2 class="section-title">A community with a useful point of view.</h2><p class="muted">Receive event updates, participate in conversations and reconnect with a community working across financial services.</p></div><div id="register"><form><label>Full name<input required name="name" autocomplete="name" placeholder="Your name"></label><label>Email address<input required type="email" name="email" autocomplete="email" placeholder="you@example.com"></label><label>Organisation<input name="organisation" placeholder="Organisation"></label><label>Interest<select name="interest"><option>BFSI Next 2026</option><option>BFSI SIG membership</option><option>Partnerships</option></select></label><div class="full"><button class="button" type="submit">Submit interest</button><p class="form-status muted" aria-live="polite"></p></div></form></div></div></section></main><footer class="site-footer"><div><b>BFSI NEXT</b><br>Leading India’s Intelligent Financial Future</div><div>10 October 2026<br>IIM Bangalore</div></footer><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Join BFSI SIG | BFSI Next</title><link rel="stylesheet" href="styles.css">
+<style>
+  /* Small additions only — everything else (.form, .wrap, .section, .button, .muted, .section-title)
+     comes straight from styles.css so this page matches the rest of the site. */
+  .form label .hint{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:4px}
+  .form .full .group-label{font-size:13px;font-weight:700;display:block;margin-bottom:8px}
+  .choice-group{display:flex;flex-wrap:wrap;gap:10px 24px}
+  .choice-group label{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:400}
+  .choice-group input{width:auto;margin:0;accent-color:var(--blue)}
+  .form-status.success{color:#177245}
+  .form-status.error{color:#b3261e}
+  .form button[type="submit"][disabled]{opacity:.6;cursor:not-allowed}
+</style>
+</head><body><header class="site-header"><a class="logo" href="index.html">BFSI <b>NEXT</b><small>IIMBAA · BFSI SIG</small></a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="about-sig.html">About SIG</a><a href="bfsinext-2026.html">BFSI Next 2026</a><a href="agenda.html">Agenda</a><a href="speakers.html">Speakers</a><a href="partners.html">Partners</a><a href="past-editions.html">Past Editions</a><a aria-current="page" href="join-sig.html">Join SIG</a></nav><a class="button" href="#register">Register interest</a></header><main><section class="section"><div class="wrap"><h2 class="section-title">A community with a useful point of view.</h2><p class="muted prose">Receive event updates, participate in conversations and reconnect with a community working across financial services. A few details below help us route you to the right chapter, events and ways to contribute.</p><div id="register"><form class="form" novalidate>
+
+  <label>Full name
+    <input required name="fullName" autocomplete="name" placeholder="First and last name">
+  </label>
+
+  <label>Email address
+    <input required type="email" name="email" autocomplete="email" placeholder="you@example.com">
+  </label>
+
+  <label>Phone number
+    <input required type="tel" name="phone" autocomplete="tel" placeholder="+91 XXXXX XXXXX">
+    <span class="hint">With country code for WhatsApp</span>
+  </label>
+
+  <label>Current location
+    <input required name="location" placeholder="City, Country">
+  </label>
+
+  <label>Organisation / company
+    <input name="organisation" placeholder="Company name">
+  </label>
+
+  <label>Designation / job title
+    <input name="designation" placeholder="Your role">
+  </label>
+
+  <label>Industry / sector
+    <select name="industry">
+      <option value="">Select an industry</option>
+      <option>Banking</option>
+      <option>Financial Services</option>
+      <option>Insurance</option>
+      <option>Technology</option>
+      <option>Cyber Security</option>
+      <option>Consulting</option>
+      <option>Healthcare</option>
+      <option>Entrepreneurship</option>
+      <option>FMCG</option>
+      <option>Other</option>
+      
+    </select>
+  </label>
+
+  <label>LinkedIn profile URL
+    <input type="url" name="linkedin" placeholder="https://linkedin.com/in/…">
+  </label>
+
+
+
+  <div class="full">
+    <span class="group-label">Preferred communication channel</span>
+    <div class="choice-group" role="radiogroup" aria-label="Preferred communication channel">
+      <label><input type="radio" name="channel" value="Email" checked>Email</label>
+      <label><input type="radio" name="channel" value="WhatsApp">WhatsApp</label>
+      <label><input type="radio" name="channel" value="LinkedIn Group">LinkedIn Group</label>
+    </div>
+  </div>
+
+  <div class="full">
+    <button class="button" type="submit">Submit interest</button>
+    <p class="form-status muted" id="form-status" aria-live="polite"></p>
+  </div>
+
+</form></div></div></section></main><footer class="site-footer"><div><b>BFSI NEXT</b><br>Leading India’s Intelligent Financial Future</div><div>10 October 2026<br>IIM Bangalore</div></footer><script src="app.js"></script>
+<script>
+(function () {
+  // Paste your Google Apps Script Web App URL here after deployment (see setup steps).
+  var GAS_URL = "https://script.google.com/macros/s/AKfycbzyd4bVdDPki971LJM8k3Ge53LBU9anZphJwm94D40cdKXGlgSHDmZe3_joFMZDYjQQzw/exec";
+
+  var form = document.querySelector('#register .form');
+  var status = document.getElementById('form-status');
+  var submitBtn = form.querySelector('button[type="submit"]');
+
+  function getChecked(name) {
+    var nodes = form.querySelectorAll('input[name="' + name + '"]:checked');
+    return Array.prototype.map.call(nodes, function (el) { return el.value; });
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    status.textContent = '';
+    status.className = 'form-status muted';
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    var channelEl = form.querySelector('input[name="channel"]:checked');
+    var payload = {
+      fullName: form.fullName.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      location: form.location.value.trim(),
+      organisation: form.organisation.value.trim(),
+      designation: form.designation.value.trim(),
+      industry: form.industry.value,
+      linkedin: form.linkedin.value.trim(),
+      contribution: getChecked('contribution').join(', '),
+      channel: channelEl ? channelEl.value : ''
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+
+    fetch(GAS_URL, {
+      method: 'POST',
+      mode: 'cors',
+      // text/plain avoids a CORS preflight; the Apps Script side parses JSON from postData.contents.
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(payload)
+    })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        if (data && data.result === 'success') {
+          status.textContent = "Thanks — you're on the list. We'll be in touch.";
+          status.className = 'form-status success';
+          form.reset();
+        } else {
+          throw new Error((data && data.error) || 'Unknown error');
+        }
+      })
+      .catch(function (err) {
+        status.textContent = 'Something went wrong submitting the form. Please try again in a moment.';
+        status.className = 'form-status error';
+        console.error('Join SIG form error:', err);
+      })
+      .then(function () {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit interest';
+      });
+  });
+})();
+</script>
+</body></html>
