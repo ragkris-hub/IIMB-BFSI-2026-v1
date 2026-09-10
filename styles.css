@@ -2,6 +2,10 @@
 .speaker img[src$="Speaker_23.jpg"],.speaker img[src$="Speaker_24.jpg"],.speaker img[src$="Speaker_25.JPG"],.speaker img[src$="Speaker_26.jpg"],.speaker img[src$="Speaker_29.jpg"],.speaker img[src$="Speaker_31.jpg"]{object-fit:contain;background:#fff}
 @media(min-width:981px){.speaker:nth-last-child(2){grid-column:2}.speaker:last-child{grid-column:3}}
 .metrics-banner .metric__icon{object-fit:contain;fill:none;stroke:none}.metrics-banner .metric__icon--wide{width:46px;height:46px}
+.agenda-image{max-width:650px;margin:32px auto 0;padding:12px;background:#fff;border:1px solid var(--line);box-shadow:0 12px 28px rgba(6,43,91,.08)}.agenda-image img{width:100%;height:auto}
+.agenda-section .eyebrow,.agenda-section .section-title{text-align:center}
+.section.agenda-section,.section#speakers{padding-top:40px}
+.section#speakers .section-title{text-align:center}
 .speaker div{padding:20px 16px;text-align:center}
 .speaker b{display:block;color:var(--navy);font-size:20px;font-weight:500;line-height:1.35}
 .speaker small{display:block;margin-top:5px;color:#385577;font-size:18px;line-height:1.4}
