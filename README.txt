@@ -11,5 +11,6 @@ Pages: `index.html`, `about-sig.html`, `bfsinext-2026.html`, `agenda.html`, `spe
 - Original generated event images: `assets/images/`
 - Speaker images: `assets/images/speakers/`
 - Partner logos: add approved logos to `assets/images/logos/`
+-
 
 Before publishing, replace all “To be announced” speaker placeholders, programme placeholders, partner placeholders and the demonstration form behaviour with approved content and a connected registration service.
