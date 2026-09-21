@@ -372,7 +372,7 @@ button,input,select {
   font-size: 11px;
   letter-spacing: .16em;
   font-weight: 800;
-  text-transform: uppercase
+  
 }
 
 .hero {
@@ -726,6 +726,47 @@ button,input,select {
 }
 
 .main-index-hero p {
+  max-width: 680px;
+  font-size: 19px;
+  color: #425671
+}
+.main-aboutsig-hero {
+  min-height: 420px;
+  position: relative;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  background: var(--pale)
+}
+
+.main-aboutsig-hero:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,rgba(237,245,255,.96) 0%,rgba(237,245,255,.88) 38%,rgba(237,245,255,.16) 72%),url('assets/images/hero-aboutsig.png') center/cover no-repeat
+}
+
+.main-aboutsig-hero .wrap {
+  position: relative;
+  z-index: 1;
+  padding: 80px 0
+}
+
+.main-aboutsig-hero h1 {
+  font-size: clamp(48px,7vw,88px);
+  letter-spacing: -.07em;
+  line-height: .88;
+  margin: 17px 0 24px;
+  color: var(--navy);
+  max-width: 800px
+}
+
+.main-aboutsig-hero h1 em {
+  font-style: normal;
+  color: var(--blue)
+}
+
+.main-aboutsig-hero p {
   max-width: 680px;
   font-size: 19px;
   color: #425671
