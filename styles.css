@@ -415,10 +415,17 @@ button,input,select {
   color: var(--blue)
 }
 
+.hero__copy .lead {
+  font-size: clamp(18px,2.1vw,20px);
+  line-height: 1.35;
+  max-width: 590px;
+  color: var(--navy);
+}
+
 .lead {
   font-size: clamp(18px,2.1vw,26px);
   line-height: 1.35;
-  max-width: 590px
+  max-width: 590px;
 }
 
 .event-line {
@@ -428,7 +435,7 @@ button,input,select {
   margin: 28px 0;
   font-weight: 750;
   font-size: 13px;
-  letter-spacing: .09em
+  letter-spacing: .09em;
 }
 
 .event-line span {
@@ -1007,6 +1014,21 @@ button,input,select {
   }
   .hero:before {
     background: linear-gradient(90deg,rgba(237,245,255,.97),rgba(237,245,255,.8)),url('assets/images/hero-bfsi-next-2026.png') center/cover
+  }
+  .past-editions-hero:before {
+    background: linear-gradient(90deg,rgba(237,245,255,.97) 0%,rgba(237,245,255,.9) 100%),url('assets/images/hero-past-events.JPG') center/cover no-repeat
+  }
+  .main-2026-hero:before {
+    background: linear-gradient(90deg,rgba(237,245,255,.97) 0%,rgba(237,245,255,.9) 100%),url('assets/images/hero-bfsi-main-2026.png') center/cover no-repeat
+  }
+  .main-index-hero:before {
+    background: linear-gradient(90deg,rgba(237,245,255,.97) 0%,rgba(237,245,255,.9) 100%),url('assets/images/archive-2025.png') center/cover no-repeat
+  }
+  .main-aboutsig-hero:before {
+    background: linear-gradient(90deg,rgba(237,245,255,.97) 0%,rgba(237,245,255,.9) 100%),url('assets/images/hero-aboutsig.png') center/cover no-repeat
+  }
+  .partners-hero:before {
+    background: linear-gradient(90deg,rgba(237,245,255,.97) 0%,rgba(237,245,255,.9) 100%),url('assets/images/hero-partnership-bfsi.png') center/cover no-repeat
   }
   .split,.form {
     grid-template-columns: 1fr;
